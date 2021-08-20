@@ -1,0 +1,74 @@
+$img-width: 375px;
+$img-height: 400px;
+
+article {
+  .galeriaPag {
+    display: grid;
+    grid-template-columns: 375px;
+    gap: 1em;
+    justify-content: center;
+    margin: 1rem;
+    .papayaGal {
+      width: $img-width;
+      height: $img-height;
+      display: flex;
+      display: inline-block;
+      border-radius: 10px;
+    }
+    .moonGal {
+      width: $img-width;
+      height: $img-height;
+      display: flex;
+      display: inline-block;
+      border-radius: 10px;
+    }
+    .selfieGal {
+      width: $img-width;
+      height: $img-height;
+      display: flex;
+      display: inline-block;
+      border-radius: 10px;
+    }
+    .parchitaGal {
+      width: $img-width;
+      height: $img-height;
+      display: flex;
+      display: inline-block;
+      border-radius: 10px;
+    }
+    .facesGal {
+      width: $img-width;
+      height: $img-height;
+      display: flex;
+      display: inline-block;
+      border-radius: 10px;
+    }
+    .piñaGal {
+      width: $img-width;
+      height: $img-height;
+      display: flex;
+      display: inline-block;
+      border-radius: 10px;
+    }
+  }
+}
+@media (min-width: 800px) {
+  article {
+    .galeriaPag {
+      display: grid;
+      grid-template-columns: 375px 375px;
+      justify-content: center;
+      gap: 1em;
+    }
+  }
+}
+@media (min-width: 1320px) {
+  article {
+    .galeriaPag {
+      display: grid;
+      grid-template-columns: 375px 375px 375px;
+      justify-content: center;
+      gap: 1em;
+    }
+  }
+}

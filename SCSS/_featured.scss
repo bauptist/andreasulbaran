@@ -1,0 +1,101 @@
+.predestacados {
+  .destacados {
+    font-family: "Abel", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-style: bold;
+    padding: 3rem 0;
+  }
+  .destacadosImagenes {
+    display: grid;
+    grid-template-columns: 375px;
+    justify-content: space-evenly;
+    .luna {
+      border-radius: 400px;
+      width: 320px;
+      height: 380px;
+    }
+    .peliroja {
+      border-radius: 400px;
+      width: 320px;
+      height: 380px;
+    }
+    .selfie {
+      border-radius: 400px;
+      width: 320px;
+      height: 380px;
+    }
+    .papaya {
+      border-radius: 400px;
+      width: 320px;
+      height: 380px;
+    }
+    .diversidad {
+      border-radius: 400px;
+      width: 320px;
+      height: 380px;
+    }
+    .parchita {
+      border-radius: 400px;
+      width: 720px;
+      height: 380px;
+    }
+    .letraImg {
+      text-align: center;
+      font-family: Georgia, "Times New Roman", Times, serif;
+      font-style: italic;
+    }
+  }
+}
+@media (min-width: 1100px) {
+  .predestacados {
+    .destacados {
+      font-family: "Abel", sans-serif;
+      text-align: center;
+      font-size: 30px;
+      font-style: bold;
+      padding: 3rem 0;
+    }
+    .destacadosImagenes {
+      display: grid;
+      grid-template-columns: 500px;
+      justify-content: space-evenly;
+      .luna {
+        border-radius: 400px;
+        width: 380px;
+        height: 480px;
+      }
+      .peliroja {
+        border-radius: 400px;
+        width: 380px;
+        height: 480px;
+      }
+      .selfie {
+        border-radius: 400px;
+        width: 380px;
+        height: 480px;
+      }
+      .papaya {
+        border-radius: 400px;
+        width: 380px;
+        height: 480px;
+      }
+      .diversidad {
+        border-radius: 400px;
+        width: 380px;
+        height: 480px;
+      }
+      .parchita {
+        border-radius: 400px;
+        width: 380px;
+        height: 480px;
+      }
+      .letraImg {
+        text-align: center;
+        font-family: Georgia, "Times New Roman", Times, serif;
+        font-style: italic;
+        font-size: 2rem;
+      }
+    }
+  }
+}

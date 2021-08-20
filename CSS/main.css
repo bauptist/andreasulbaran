@@ -1,0 +1,745 @@
+@charset "UTF-8";
+header {
+  background-color: #D9CAAD;
+  padding: 1rem;
+}
+header a {
+  text-decoration: none;
+}
+header .titulo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 2rem;
+  font-family: "Cinzel", serif;
+  padding-bottom: 1rem;
+  text-decoration: none;
+  color: black;
+}
+header nav .secciones {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  list-style: none;
+  padding: 0px;
+}
+header nav .secciones .tienda {
+  font-size: 19px;
+  font-family: "Abel", sans-serif;
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s;
+}
+header nav .secciones .tienda:hover {
+  font-size: 25px;
+}
+header nav .secciones .galeria {
+  font-size: 19px;
+  font-family: "Abel", sans-serif;
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s;
+}
+header nav .secciones .galeria:hover {
+  font-size: 25px;
+}
+header nav .secciones .nosotros {
+  font-size: 19px;
+  font-family: "Abel", sans-serif;
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s;
+}
+header nav .secciones .nosotros:hover {
+  font-size: 25px;
+}
+header nav .secciones .contactanos {
+  font-size: 19px;
+  font-family: "Abel", sans-serif;
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s;
+}
+header nav .secciones .contactanos:hover {
+  font-size: 25px;
+}
+
+.presentacion {
+  height: 450px;
+  width: auto;
+  display: grid;
+  grid-template-rows: 100%;
+  justify-content: center;
+  padding-top: 10rem;
+  border-bottom: 1px solid #c2c2c2;
+  background-color: #8C5C32;
+}
+.presentacion .diseños {
+  text-align: center;
+  font-family: "Abel", sans-serif;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.predestacados .destacados {
+  font-family: "Abel", sans-serif;
+  text-align: center;
+  font-size: 30px;
+  font-style: bold;
+  padding: 3rem 0;
+}
+.predestacados .destacadosImagenes {
+  display: grid;
+  grid-template-columns: 375px;
+  justify-content: space-evenly;
+}
+.predestacados .destacadosImagenes .luna {
+  border-radius: 400px;
+  width: 320px;
+  height: 380px;
+}
+.predestacados .destacadosImagenes .peliroja {
+  border-radius: 400px;
+  width: 320px;
+  height: 380px;
+}
+.predestacados .destacadosImagenes .selfie {
+  border-radius: 400px;
+  width: 320px;
+  height: 380px;
+}
+.predestacados .destacadosImagenes .papaya {
+  border-radius: 400px;
+  width: 320px;
+  height: 380px;
+}
+.predestacados .destacadosImagenes .diversidad {
+  border-radius: 400px;
+  width: 320px;
+  height: 380px;
+}
+.predestacados .destacadosImagenes .parchita {
+  border-radius: 400px;
+  width: 720px;
+  height: 380px;
+}
+.predestacados .destacadosImagenes .letraImg {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+}
+
+@media (min-width: 1100px) {
+  .predestacados .destacados {
+    font-family: "Abel", sans-serif;
+    text-align: center;
+    font-size: 30px;
+    font-style: bold;
+    padding: 3rem 0;
+  }
+  .predestacados .destacadosImagenes {
+    display: grid;
+    grid-template-columns: 500px;
+    justify-content: space-evenly;
+  }
+  .predestacados .destacadosImagenes .luna {
+    border-radius: 400px;
+    width: 380px;
+    height: 480px;
+  }
+  .predestacados .destacadosImagenes .peliroja {
+    border-radius: 400px;
+    width: 380px;
+    height: 480px;
+  }
+  .predestacados .destacadosImagenes .selfie {
+    border-radius: 400px;
+    width: 380px;
+    height: 480px;
+  }
+  .predestacados .destacadosImagenes .papaya {
+    border-radius: 400px;
+    width: 380px;
+    height: 480px;
+  }
+  .predestacados .destacadosImagenes .diversidad {
+    border-radius: 400px;
+    width: 380px;
+    height: 480px;
+  }
+  .predestacados .destacadosImagenes .parchita {
+    border-radius: 400px;
+    width: 380px;
+    height: 480px;
+  }
+  .predestacados .destacadosImagenes .letraImg {
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: 2rem;
+  }
+}
+footer {
+  background-color: #d9caad;
+  padding: 1rem;
+}
+footer .form {
+  display: grid;
+  grid-template-rows: auto;
+  justify-content: center;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 23px;
+}
+footer .form .esloganFooter {
+  font-size: 12px;
+  font-style: italic;
+}
+footer .copyrightBox {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+footer .copyrightBox .copyright {
+  padding-left: 1rem;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #948872;
+}
+footer .copyrightBox p {
+  padding-left: 1rem;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #948872;
+}
+footer .iconos {
+  display: flex;
+  justify-content: center;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+footer .icon-twitter {
+  color: #948872;
+  font-size: 13px;
+}
+footer .icon-instagram {
+  color: #948872;
+  font-size: 13px;
+}
+footer .icon-facebook {
+  color: #948872;
+  font-size: 13px;
+}
+
+.doing {
+  font-size: 3rem;
+  height: 500px;
+  width: auto;
+  display: grid;
+  grid-template-rows: auto;
+  justify-content: center;
+  padding-top: 230px;
+  font-style: italic;
+}
+
+.tienda2 {
+  display: grid;
+  grid-template-columns: 170px 170px;
+  justify-content: space-evenly;
+  padding: 1rem;
+  gap: 1em;
+}
+.tienda2 .esloganTienda {
+  text-align: center;
+  font-style: italic;
+}
+.tienda2 .camisas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "Abel", sans-serif;
+  color: black;
+  font-size: 20px;
+  padding-top: 73px;
+  height: 170px;
+  width: 170px;
+  border-radius: 200px;
+  background-color: #8c5c32;
+  transition: all 0.3s;
+}
+.tienda2 .camisas:hover {
+  font-size: 24px;
+}
+.tienda2 .buzos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "Abel", sans-serif;
+  color: black;
+  font-size: 20px;
+  padding-top: 73px;
+  height: 170px;
+  width: 170px;
+  border-radius: 200px;
+  background-color: #d9caad;
+  transition: all 0.3s;
+}
+.tienda2 .buzos:hover {
+  font-size: 24px;
+}
+.tienda2 .forros {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "Abel", sans-serif;
+  color: black;
+  font-size: 20px;
+  padding-top: 73px;
+  height: 170px;
+  width: 170px;
+  border-radius: 200px;
+  background-color: #d9caad;
+  transition: all 0.3s;
+}
+.tienda2 .forros:hover {
+  font-size: 24px;
+}
+.tienda2 .medias {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "Abel", sans-serif;
+  color: black;
+  font-size: 20px;
+  padding-top: 73px;
+  height: 170px;
+  width: 170px;
+  border-radius: 200px;
+  background-color: #8c5c32;
+  transition: all 0.3s;
+}
+.tienda2 .medias:hover {
+  font-size: 24px;
+}
+.tienda2 .cuadros {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "Abel", sans-serif;
+  color: black;
+  font-size: 20px;
+  padding-top: 73px;
+  height: 170px;
+  width: 170px;
+  border-radius: 200px;
+  background-color: #8c5c32;
+  transition: all 0.3s;
+}
+.tienda2 .cuadros:hover {
+  font-size: 24px;
+}
+.tienda2 .productos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: "Abel", sans-serif;
+  color: black;
+  font-size: 20px;
+  padding-top: 73px;
+  height: 170px;
+  width: 170px;
+  border-radius: 200px;
+  background-color: #d9caad;
+  transition: all 0.3s;
+}
+.tienda2 .productos:hover {
+  font-size: 22px;
+}
+
+@media (min-width: 1100px) {
+  .tienda2 {
+    display: grid;
+    grid-template-columns: 270px 270px;
+    justify-content: space-evenly;
+    padding: 1rem;
+    gap: 1em;
+  }
+  .tienda2 .esloganTienda {
+    text-align: center;
+    font-style: italic;
+  }
+  .tienda2 .camisas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Abel", sans-serif;
+    color: black;
+    font-size: 27px;
+    padding-top: 115px;
+    height: 270px;
+    width: 270px;
+    border-radius: 200px;
+    background-color: #8c5c32;
+    transition: all 0.3s;
+  }
+  .tienda2 .camisas:hover {
+    font-size: 35px;
+  }
+  .tienda2 .buzos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Abel", sans-serif;
+    color: black;
+    font-size: 27px;
+    padding-top: 115px;
+    height: 270px;
+    width: 270px;
+    border-radius: 200px;
+    background-color: #d9caad;
+    transition: all 0.3s;
+  }
+  .tienda2 .buzos:hover {
+    font-size: 35px;
+  }
+  .tienda2 .forros {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Abel", sans-serif;
+    color: black;
+    font-size: 27px;
+    padding-top: 115px;
+    height: 270px;
+    width: 270px;
+    border-radius: 200px;
+    background-color: #d9caad;
+    transition: all 0.3s;
+  }
+  .tienda2 .forros:hover {
+    font-size: 35px;
+  }
+  .tienda2 .medias {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Abel", sans-serif;
+    color: black;
+    font-size: 27px;
+    padding-top: 115px;
+    height: 270px;
+    width: 270px;
+    border-radius: 200px;
+    background-color: #8c5c32;
+    transition: all 0.3s;
+  }
+  .tienda2 .medias:hover {
+    font-size: 35px;
+  }
+  .tienda2 .cuadros {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Abel", sans-serif;
+    color: black;
+    font-size: 27px;
+    padding-top: 115px;
+    height: 270px;
+    width: 270px;
+    border-radius: 200px;
+    background-color: #8c5c32;
+    transition: all 0.3s;
+  }
+  .tienda2 .cuadros:hover {
+    font-size: 35px;
+  }
+  .tienda2 .productos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: "Abel", sans-serif;
+    color: black;
+    font-size: 27px;
+    padding-top: 115px;
+    height: 270px;
+    width: 270px;
+    border-radius: 200px;
+    background-color: #d9caad;
+    transition: all 0.3s;
+  }
+  .tienda2 .productos:hover {
+    font-size: 33px;
+  }
+}
+article .galeriaPag {
+  display: grid;
+  grid-template-columns: 375px;
+  gap: 1em;
+  justify-content: center;
+  margin: 1rem;
+}
+article .galeriaPag .papayaGal {
+  width: 375px;
+  height: 400px;
+  display: flex;
+  display: inline-block;
+  border-radius: 10px;
+}
+article .galeriaPag .moonGal {
+  width: 375px;
+  height: 400px;
+  display: flex;
+  display: inline-block;
+  border-radius: 10px;
+}
+article .galeriaPag .selfieGal {
+  width: 375px;
+  height: 400px;
+  display: flex;
+  display: inline-block;
+  border-radius: 10px;
+}
+article .galeriaPag .parchitaGal {
+  width: 375px;
+  height: 400px;
+  display: flex;
+  display: inline-block;
+  border-radius: 10px;
+}
+article .galeriaPag .facesGal {
+  width: 375px;
+  height: 400px;
+  display: flex;
+  display: inline-block;
+  border-radius: 10px;
+}
+article .galeriaPag .piñaGal {
+  width: 375px;
+  height: 400px;
+  display: flex;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+@media (min-width: 800px) {
+  article .galeriaPag {
+    display: grid;
+    grid-template-columns: 375px 375px;
+    justify-content: center;
+    gap: 1em;
+  }
+}
+@media (min-width: 1320px) {
+  article .galeriaPag {
+    display: grid;
+    grid-template-columns: 375px 375px 375px;
+    justify-content: center;
+    gap: 1em;
+  }
+}
+main section .biografiaBox {
+  display: grid;
+  grid-template-columns: 370px;
+  justify-content: space-evenly;
+}
+main section .biografiaBox .biografia {
+  text-align: center;
+  padding-top: 2rem;
+  font-family: "Cinzel", serif;
+  padding-bottom: 1rem;
+}
+main section .biografiaBox .andrea {
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 300px;
+  width: 200px;
+  height: 200px;
+}
+main section .biografiaText {
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: 300px;
+  justify-content: center;
+  text-align: center;
+  font-style: italic;
+}
+main section .diseñoBox {
+  display: grid;
+  grid-template-columns: 370px;
+  justify-content: space-evenly;
+}
+main section .diseñoBox .diseño {
+  text-align: center;
+  padding-top: 2rem;
+  font-family: "Cinzel", serif;
+  padding-bottom: 1rem;
+}
+main section .diseñoBox .diseñoImg {
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 300px;
+  width: 200px;
+  height: 200px;
+}
+main section .diseñoText {
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: 300px;
+  justify-content: center;
+  text-align: center;
+  font-style: italic;
+}
+main section .diseñoText a {
+  text-decoration: none;
+  color: black;
+}
+main section .materialesBox {
+  display: grid;
+  grid-template-rows: auto auto auto auto auto auto;
+  padding-bottom: 2rem;
+}
+main section .materialesBox .materiales {
+  text-align: center;
+  padding-top: 2rem;
+  font-family: "Cinzel", serif;
+  padding-bottom: 1rem;
+}
+main section .materialesBox .materialesDescrip {
+  font-family: "Abel", sans-serif;
+  font-size: 20px;
+  padding-left: 1rem;
+  padding-bottom: 8px;
+}
+main section .materialesBox .materialesText {
+  padding-left: 2rem;
+  text-align: justify;
+  padding-right: 2rem;
+}
+main section .materialesBox .materialesImg {
+  width: 180px;
+  height: 180px;
+  margin: auto;
+}
+
+@media (min-width: 800px) {
+  main section .biografiaBox {
+    display: grid;
+    grid-template-columns: 370px;
+    justify-content: space-evenly;
+  }
+  main section .biografiaBox .biografia {
+    text-align: center;
+    padding-top: 2rem;
+    font-family: "Cinzel", serif;
+    padding-bottom: 1rem;
+  }
+  main section .biografiaBox .andrea {
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 300px;
+    width: 200px;
+    height: 200px;
+  }
+  main section .biografiaText {
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: 780px;
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+  }
+  main section .diseñoBox {
+    display: grid;
+    grid-template-columns: 370px;
+    justify-content: space-evenly;
+  }
+  main section .diseñoBox .diseño {
+    text-align: center;
+    padding-top: 2rem;
+    font-family: "Cinzel", serif;
+    padding-bottom: 1rem;
+  }
+  main section .diseñoBox .diseñoImg {
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 300px;
+    width: 200px;
+    height: 200px;
+  }
+  main section .diseñoText {
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: 780px;
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+  }
+  main section .diseñoText a {
+    text-decoration: none;
+    color: black;
+  }
+  main section .materialesBox {
+    display: grid;
+    grid-template-rows: auto auto auto auto auto auto;
+    padding-bottom: 2rem;
+  }
+  main section .materialesBox .materiales {
+    text-align: center;
+    padding-top: 2rem;
+    font-family: "Cinzel", serif;
+    padding-bottom: 1rem;
+  }
+  main section .materialesBox .materialesDescrip {
+    font-family: "Abel", sans-serif;
+    font-size: 20px;
+    padding-left: 1rem;
+    padding-bottom: 8px;
+  }
+  main section .materialesBox .materialesText {
+    padding-left: 2rem;
+    text-align: justify;
+    padding-right: 2rem;
+  }
+  main section .materialesBox .materialesImg {
+    width: 280px;
+    height: 280px;
+    margin: auto;
+  }
+}
+article main .information {
+  padding: 1rem;
+  display: grid;
+  grid-template-rows: auto auto auto auto auto auto;
+  gap: 1em;
+  justify-content: center;
+}
+article main .information .nombre {
+  font-size: 22px;
+}
+article main .information .apellido {
+  font-size: 22px;
+}
+article main .information .telefono {
+  font-size: 22px;
+}
+article main .information .correo {
+  font-size: 22px;
+}
+article main .information .mensaje {
+  font-size: 22px;
+}
+article main .information .mensaje input {
+  font-size: 18px;
+}
+article main .information .checkbox {
+  font-size: 22px;
+}
+article main .information .submitForm {
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=main.css.map */

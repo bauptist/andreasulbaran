@@ -1,0 +1,51 @@
+footer {
+  background-color: #d9caad;
+  padding: 1rem;
+  .form {
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 23px;
+    .esloganFooter {
+      font-size: 12px;
+      font-style: italic;
+    }
+  }
+  .copyrightBox {
+    padding-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    .copyright {
+      padding-left: 1rem;
+      font-size: 13px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #948872;
+    }
+    p{
+      padding-left: 1rem;
+      font-size: 13px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #948872;
+    }
+  }
+  .iconos {
+    display: flex;
+    justify-content: center;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+  }
+  .icon-twitter {
+    color: #948872;
+    font-size: 13px;
+  }
+  .icon-instagram {
+    color: #948872;
+    font-size: 13px;
+  }
+  .icon-facebook {
+    color: #948872;
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,231 @@
+$letter-color: black;
+$letter-size: 10px;
+$letter-font: "Abel", sans-serif;
+.tienda2 {
+  display: grid;
+  grid-template-columns: 170px 170px;
+  justify-content: space-evenly;
+  padding: 1rem;
+  gap: 1em;
+  .esloganTienda {
+    text-align: center;
+    font-style: italic;
+  }
+  .camisas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: $letter-font;
+    color: $letter-color;
+    font-size: $letter-size * 2;
+    padding-top: 73px;
+    height: 170px;
+    width: 170px;
+    border-radius: 200px;
+    background-color: #8c5c32;
+    transition: all 0.3s;
+  }
+  .camisas:hover {
+    font-size: 24px;
+  }
+  .buzos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: $letter-font;
+    color: $letter-color;
+    font-size: $letter-size * 2;
+    padding-top: 73px;
+    height: 170px;
+    width: 170px;
+    border-radius: 200px;
+    background-color: #d9caad;
+    transition: all 0.3s;
+  }
+  .buzos:hover {
+    font-size: 24px;
+  }
+  .forros {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: $letter-font;
+    color: $letter-color;
+    font-size: $letter-size * 2;
+    padding-top: 73px;
+    height: 170px;
+    width: 170px;
+    border-radius: 200px;
+    background-color: #d9caad;
+    transition: all 0.3s;
+  }
+  .forros:hover {
+    font-size: 24px;
+  }
+  .medias {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: $letter-font;
+    color: $letter-color;
+    font-size: $letter-size * 2;
+    padding-top: 73px;
+    height: 170px;
+    width: 170px;
+    border-radius: 200px;
+    background-color: #8c5c32;
+    transition: all 0.3s;
+  }
+  .medias:hover {
+    font-size: 24px;
+  }
+  .cuadros {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: $letter-font;
+    color: $letter-color;
+    font-size: $letter-size * 2;
+    padding-top: 73px;
+    height: 170px;
+    width: 170px;
+    border-radius: 200px;
+    background-color: #8c5c32;
+    transition: all 0.3s;
+  }
+  .cuadros:hover {
+    font-size: 24px;
+  }
+  .productos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: $letter-font;
+    color: $letter-color;
+    font-size: $letter-size * 2;
+    padding-top: 73px;
+    height: 170px;
+    width: 170px;
+    border-radius: 200px;
+    background-color: #d9caad;
+    transition: all 0.3s;
+  }
+  .productos:hover {
+    font-size: 22px;
+  }
+}
+@media (min-width:1100px) {
+  .tienda2 {
+    display: grid;
+    grid-template-columns: 270px 270px;
+    justify-content: space-evenly;
+    padding: 1rem;
+    gap: 1em;
+    .esloganTienda {
+      text-align: center;
+      font-style: italic;
+    }
+    .camisas {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      font-family: $letter-font;
+      color: $letter-color;
+      font-size: $letter-size * 2.7;
+      padding-top: 115px;
+      height: 270px;
+      width: 270px;
+      border-radius: 200px;
+      background-color: #8c5c32;
+      transition: all 0.3s;
+    }
+    .camisas:hover {
+      font-size: 35px;
+    }
+    .buzos {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      font-family: $letter-font;
+      color: $letter-color;
+      font-size: $letter-size * 2.7;
+      padding-top: 115px;
+      height: 270px;
+      width: 270px;
+      border-radius: 200px;
+      background-color: #d9caad;
+      transition: all 0.3s;
+    }
+    .buzos:hover {
+      font-size: 35px;
+    }
+    .forros {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      font-family: $letter-font;
+      color: $letter-color;
+      font-size: $letter-size * 2.7;
+      padding-top: 115px;
+      height: 270px;
+      width: 270px;
+      border-radius: 200px;
+      background-color: #d9caad;
+      transition: all 0.3s;
+    }
+    .forros:hover {
+      font-size: 35px;
+    }
+    .medias {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      font-family: $letter-font;
+      color: $letter-color;
+      font-size: $letter-size * 2.7;
+      padding-top: 115px;
+      height: 270px;
+      width: 270px;
+      border-radius: 200px;
+      background-color: #8c5c32;
+      transition: all 0.3s;
+    }
+    .medias:hover {
+      font-size: 35px;
+    }
+    .cuadros {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      font-family: $letter-font;
+      color: $letter-color;
+      font-size: $letter-size * 2.7;
+      padding-top: 115px;
+      height: 270px;
+      width: 270px;
+      border-radius: 200px;
+      background-color: #8c5c32;
+      transition: all 0.3s;
+    }
+    .cuadros:hover {
+      font-size: 35px;
+    }
+    .productos {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      font-family: $letter-font;
+      color: $letter-color;
+      font-size: $letter-size * 2.7;
+      padding-top: 115px;
+      height: 270px;
+      width: 270px;
+      border-radius: 200px;
+      background-color: #d9caad;
+      transition: all 0.3s;
+    }
+    .productos:hover {
+      font-size: 33px;
+    }
+  }
+}
