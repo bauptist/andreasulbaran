@@ -231,17 +231,6 @@ footer .icon-facebook {
   font-size: 13px;
 }
 
-.doing {
-  font-size: 3rem;
-  height: 500px;
-  width: auto;
-  display: grid;
-  grid-template-rows: auto;
-  justify-content: center;
-  padding-top: 230px;
-  font-style: italic;
-}
-
 .tienda2 {
   display: grid;
   grid-template-columns: 170px 170px;
@@ -718,25 +707,25 @@ article main .information {
   justify-content: center;
 }
 article main .information .nombre {
-  font-size: 22px;
+  font-size: 18px;
 }
 article main .information .apellido {
-  font-size: 22px;
+  font-size: 18px;
 }
 article main .information .telefono {
-  font-size: 22px;
+  font-size: 18px;
 }
 article main .information .correo {
-  font-size: 22px;
+  font-size: 18px;
 }
 article main .information .mensaje {
-  font-size: 22px;
+  font-size: 18px;
 }
 article main .information .mensaje input {
   font-size: 18px;
 }
 article main .information .checkbox {
-  font-size: 22px;
+  font-size: 18px;
 }
 article main .information .submitForm {
   font-size: 18px;
